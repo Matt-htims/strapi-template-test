@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_item_menu_items",
+  "info": {
+    "displayName": "Menu Item",
+    "icon": "flag"
+  },
+  "options": {},
+  "attributes": {
+    "displayName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

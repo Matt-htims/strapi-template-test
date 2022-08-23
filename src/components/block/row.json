@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_rows",
+  "info": {
+    "displayName": "Row",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "copy": {
+      "type": "richtext"
+    },
+    "bottomText": {
+      "type": "richtext"
+    },
+    "bottomText2": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

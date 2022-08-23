@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageIntro": {
+      "displayName": "Page Intro",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.page-intro"
+    },
+    "leadText": {
+      "displayName": "Side by side text",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.side-by-side-text"
+    },
+    "services": {
+      "displayName": "Triple explainer",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.triple-explainer"
+    },
+    "contact": {
+      "displayName": "CTA section",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.cta-section"
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_triple_explainers",
+  "info": {
+    "displayName": "Triple explainer",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "individualServices": {
+      "displayName": "Row",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.row"
+    }
+  }
+}
