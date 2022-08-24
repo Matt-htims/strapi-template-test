@@ -36,10 +36,11 @@
       "repeatable": false,
       "component": "block.cta-section"
     },
-    "works": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::work.work"
+    "myWorks": {
+      "displayName": "Info Gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.info-gallery"
     }
   }
 }

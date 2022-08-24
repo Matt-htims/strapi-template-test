@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_info_galleries",
+  "info": {
+    "displayName": "Info Gallery",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
+    }
+  }
+}
