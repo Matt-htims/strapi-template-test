@@ -4,7 +4,8 @@
   "info": {
     "singularName": "work",
     "pluralName": "works",
-    "displayName": "Work"
+    "displayName": "Work",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,37 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "fullScreenImage": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
