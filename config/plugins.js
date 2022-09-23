@@ -30,6 +30,18 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  email: {
+    config: {
+      provider: "sendgrid",
+      providerOptions: {
+        apiKey: env("SENDGRID_API_KEY"),
+      },
+      settings: {
+        defaultFrom: "noreply@5gallon.dev",
+        defaultReplyTo: "hello@5gallon.dev",
+      },
+    },
+  },
   "vercel-deploy": {
     enabled: true,
     config: {
